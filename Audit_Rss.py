@@ -191,7 +191,7 @@ class Rss(object):
                     for _black in self.black_list:
                         if _black in _title:
                             key = True
-                    if key: break
+                    if key: continue
                     _hash = self._url_hash(_url)
                     _status = self._check_hash(_id, _hash)
                     if not _status:
