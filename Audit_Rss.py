@@ -185,7 +185,7 @@ class Rss(object):
                 # 倒序输出
                 for _c in reversed(article_list):
                     key = False
-                    _url = _c.links[0].href
+                    _url = _c.link
                     _title = _c.title
                     # 关键词黑名单
                     for _black in self.black_list:
