@@ -65,7 +65,7 @@ class AliHook(object):
         """
         阿里机器人
         """
-        url = "https://oapi.dingtalk.com/robot/send?access_token={}".format(ding_rebot_token)
+        url = "https://oapi.dingtalk.com/robot/send?access_token={}".format(ding_robot_token)
         header = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) Chrome/58.0.3071.115 Safari/537.36",
             "Host": "oapi.dingtalk.com",

@@ -15,7 +15,7 @@ if key == "localhost":
     mysql_database = "auditrss"
 
     # 钉钉 Token
-    ding_rebot_token = "42324e163c710abb0a4537701cda0ce043a00d5dec34d2d07c2bd8a2de57d59c"
+    ding_robot_token = "***"
 
 else:
     # Mysql 配置
@@ -26,7 +26,7 @@ else:
     mysql_database = "auditrss"
 
     # 钉钉 Token
-    ding_rebot_token = "42324e163c710abb0a4537701cda0ce043a00d5dec34d2d07c2bd8a2de57d59c"
+    ding_robot_token = "***"
 
 
 mysql_client = 'mysql+pymysql://{}:{}@{}:{}/{}'.format(mysql_user, mysql_pass, mysql_host, int(mysql_port),

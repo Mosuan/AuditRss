@@ -10,20 +10,17 @@ pip install -r requirements.txt
 
 配置
 ----
-#### Audit_Rss.py 大约26-37行
+#### ./config/config.py
 ```
 # Mysql配置
-Mysql_config = {
-    "host": "127.0.0.1",
-    "user": "you username",
-    "port": 3306,
-    "password": "you password",
-    "db": "auditrss",
-    "charset": "utf8",
-}
+mysql_host = "127.0.0.1"
+mysql_port = "3306"
+mysql_user = "root"
+mysql_pass = "root"
+mysql_database = "auditrss"
 
 # 钉钉机器人token
-ali_token = "钉钉申请的机器人token"
+ding_robot_token = "钉钉申请的机器人token"
 ```
 ### 【注意】然后Mysql source该项目下面的auditrss.sql文件！！
 
